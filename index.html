@@ -1,70 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script>
-        function allowDrop(ev) {
-          ev.preventDefault();
-        }
-        
-        function drag(ev) {
-          ev.dataTransfer.setData("text", ev.target.id);
-        }
-        
-        function drop(ev) {
-          ev.preventDefault();
-          var data = ev.dataTransfer.getData("text");
-          ev.target.appendChild(document.getElementById(data));
-        }
-        </script>
-        </head>
-        <body>
-        
-        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-        
-        <img id="drag1" src="img_logo.gif" draggable="true" ondragstart="drag(event)" width="336" height="69">
-<title>Page Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css" /> 
 </head>
 <body>
-<h1>Lerne einfach Programieren</h1>
-<h2>Schreibe eigende Webseiten oder anderes!</h2>
-<p>Hier erhalten sie einen link.</p>
-<p>(dieser link ist zur einer lern Webside auf Enlisch bei der du vieles lernen aber auch ausprobieren kannst)</p>
-<a href="https://www.w3schools.com"><img src="w3schools.jpg" alt="W3Schools.com" width="10s4" height="142"></a>
+    <h1>Meine erste Internetseit</h1>
+    <p>Diese Seite soll Menschen überall auf dieser Welt helfen,<br>
+    Ich finde dass nicht viele dies lesen und diese Seite wirklich unterstützen aber ich möchte den wenigen einfach etwas helfen.</p>
 <hr>
-<h2>Qualifikationen und Lerninhalte</h2>
-<p style="color:rgb(255, 0, 0);">Du kannst einfach Texte anders Färben.</p>
-<p title="I'm a tooltip">Ganz wichtig ist dass du Englisch nicht supper gut können musts.</p>
-<html lang="en">
-<a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
-    <h1 style="background-color:powderblue;">oder du kannst </h1>
-<p style="background-color:tomato;">sowas machen.</p>
-<h1 style="font-family:verdana;">aber vieleicht magst</h1>
-<p style="font-family:courier;">du es Ja lieber wenn die webside eine andere Schriftart hat.</p>
-<h1 style="font-size:300%;">(nur verschiedene Beispiele</h1>
-<p>Vergiss nicht<mark>Englisch</mark> zu Lernen.</p>
-<p>Beschreibe deine Englisch noten <del>gut</del> sehr gut.</p>
-<p>Wie findest du ITG <del>richtig schlecht</del> <ins>richtig gut</ins>.</p>
-<p>Die Chemische formel für Englisch ist Lernen<sub>x10</sub>.</p>
-<p>Here is a quote from WWF's website:</p>
-<bdo dir="rtl">Ich mag diese Funktion</bdo>
-<p>This is a paragraph.</p>
-<hr>
-<h1 style="background-color:rgb(243, 247, 25);">Hi wilkommen zu meinem kommentar</h1>
-<p style="background-color:rgb(161, 255, 73);">Ich finde dass es etwas eintönig wird</p>
-<h1 style="border:2px solid rgb(255, 38, 0);">Hello World</h1>
-<h1 style="border:2px solid rgb(32, 143, 253);">Hello World</h1>
-<h1 style="border:2px solid rgb(0, 195, 255);">Hello World</h1>
-<p>x3 Hello World i wish you a good morning...</p>
-<hr>
-<img src="pic_trulli.jpg" alt="Italian Trulli">
-<hr>
-<img src="img_girl.jpg" alt="Girl in a jacket">
-<hr>
-<img src="img_chania.jpg" alt="Flowers in Chania">
-<hr>
-<p>Dies sind Link die aus Aufgaben der Webside sind</p>
-<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
-<map name="workmap">
-<!DOCTYPE html>
 </body>
 </html>
