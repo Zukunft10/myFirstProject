@@ -1,7 +1,7 @@
 
 // Add your JavaScript code here
 // Example:
-const words = ["apfel", "banane", "kirsche", "dattel", "holunderbeere"];
+const words = ["apfel", "banane", "kirsche", "dattel", "holunderbeere", "fenster", "schrank", "haus", "baum", "richter", "kirche", "schleichen", "kreischen"];
 let word = "";
 let guessedLetters = [];
 
